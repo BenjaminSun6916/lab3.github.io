@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" href="../resources/css/style.css">
+</head>
+
+<meta charset="utf-8" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+<script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+<html lang="en">
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="./home.html">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Other Pages
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="./hobbies.html">Hobbies</a></li>
+            <li><a class="dropdown-item" href="./projects.html">Projects</a></li>
+            <li><a class="dropdown-item" href="./resume.html">Resume</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <a class="navbar-brand" href="#" style="margin-left: auto;"> 
+        <img src="../resources/img/icon.jpg" alt="Bootstrap" width="100" height="100"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+</nav>
+
+<body>
+  <div class="container-lg">
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Project 1
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <div class="container-lg">
+              <img src="../resources/img/blackjack.jpg" style="float:left; margin-right: 15px;" width="500">
+              <strong>Blackjack</strong><br>
+              For this project, I created a fully functioning game of Blackjack with a simulated deck of 52 cards.
+              The user starts with 100 units of an unnamed currency and can bet on each of their hands in the game.
+              To start off, the user places a bet, and then them and the dealer get dealt two cards. 
+              They then have the option to double down or if they were dealt a pair of the same value card, to split their hand.
+              They have the option to hit or to stand and if they get closer to 21 than the dealer without busting, they get paid their bet.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Project 2
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <div class="container-lg">
+              <img src="../resources/img/kao game.jpg" style="float:left; margin-right: 15px;" width="500">
+              <strong>Kao Game</strong><br>
+              For this project, I created a Suika-Like Game.
+              The user controls colorful circles that have certain facial expressions on them.
+              They drop the circles into a box on the screen, and they can roll and bounce around in it.
+              Whenever 2 circles that match touch, they merge into a bigger circle. This has a set progression, each merge giving the user bigger and bigger circles.
+              The game resets when the user has a circle be outside of the box for too long. This occurs when they run out of space in the box.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Project 3
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <div class="container-lg">
+              <img src="../resources/img/breakout.jpg" style="float:left; margin-right: 15px;" width="500">
+              <strong>Breakout Rogue</strong><br>
+              For this project, I created a breakout game with a bit of a twist.
+              The user starts by picking a difficulty. This will affect numerous things such as the kinds of enemies that spawn.
+              They also pick a ball with which to play with. There is a ball that fires projectiles and a ball that does more damage on collision.
+              Each level, the player must break through bricks in order to get to the enemies which fire projectiles.
+              Once they kill all of the enemies, the top opens and by getting the ball to touch the top they advance to the next level.
+              They then get to either heal or pick an upgrade for their chosen ball and move on to the next level.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+<div class="footer text-center fixed-bottom" style="background-color: rgb(240, 240, 240);">
+    <div class="card-header">
+        Contact Me
+    </div>
+    <div class="card-body">
+        <a href="https://www.linkedin.com/in/benjamin-sun-59108a347/">
+          <img src="../resources/img/linkedin.jpg" width="30" height="30">
+        </a>
+    </div>
+    </div>
+</div>
+</html>
